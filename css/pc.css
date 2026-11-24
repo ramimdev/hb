@@ -1,0 +1,30 @@
+
+#tbCardMasterApp { min-height: 100vh !important; font-family: 'Noto Serif Bengali', serif !important; color: #000 !important; background: #fff4f4 !important; margin: 0 auto !important; padding: 12px 6px 32px !important; text-align: center !important; box-sizing: border-box !important; opacity: 1 !important; visibility: visible !important; }
+#tbCardMasterApp *, #tbCardMasterApp *::before, #tbCardMasterApp *::after { box-sizing: border-box !important; font-family: 'Noto Serif Bengali', serif !important; }
+#tbCardMasterApp #tbCanvasPreviewOuter { width: 100% !important; max-width: 900px !important; margin: 0 auto !important; background: transparent !important; box-shadow: 0 4px 18px rgba(0,0,0,0.14) !important; position: relative !important; opacity: 1 !important; visibility: visible !important; }
+#tbCardMasterApp #tbMasterCanvas { width: 100% !important; height: auto !important; display: block !important; margin: 0 auto !important; opacity: 1 !important; visibility: visible !important; }
+#tbCardMasterApp .prime_it_world_card_controls { width: 100% !important; max-width: 900px !important; margin: 14px auto !important; background: #fff5d8 !important; padding: 15px !important; border-radius: 4px !important; box-shadow: 0 1px 3px rgba(0,0,0,0.1) !important; text-align: left !important; border: 1px solid #dfd5b7 !important; }
+#tbCardMasterApp .control-group { display: flex !important; justify-content: space-between !important; align-items: center !important; gap: 12px !important; margin-bottom: 14px !important; }
+#tbCardMasterApp .social-grid-group { gap: 10px !important; }
+#tbCardMasterApp .ad-control { display: flex !important; align-items: center !important; gap: 10px !important; width: 100% !important; }
+#tbCardMasterApp .title-control, #tbCardMasterApp .color-control, #tbCardMasterApp .font-control, #tbCardMasterApp .design-control { display: flex !important; flex-direction: column !important; }
+#tbCardMasterApp .title-control { flex-grow: 1 !important; min-width: 0 !important; }
+#tbCardMasterApp .color-control { min-width: 55px !important; flex-shrink: 0 !important; }
+#tbCardMasterApp .prime_it_world_card_controls label { font-size: 15px !important; font-weight: 600 !important; margin-bottom: 4px !important; color: #000 !important; display: block !important; }
+#tbCardMasterApp .font-control { width: 38% !important; }
+#tbCardMasterApp .title-control input[type='text'] { border: 1px solid #ccc !important; border-radius: 4px !important; padding: 6px 10px !important; font-size: 15px !important; background: #fff !important; color: #000 !important; width: 100% !important; height: auto !important; }
+#tbCardMasterApp .ad-control input[type='file'] { flex-grow: 1 !important; min-width: 0 !important; background: #fff !important; padding: 5px 8px !important; border: 1px solid #ccc !important; border-radius: 4px !important; font-size: 15px !important; color: #000 !important; }
+#tbCardMasterApp .font-control #fontSizeValue { font-size: 14px !important; color: #333 !important; font-weight: 700 !important; }
+#tbCardMasterApp .control-group input[type='range'] { width: 100% !important; padding: 5px 0 !important; cursor: pointer !important; }
+#tbCardMasterApp .control-group input[type='color'] { width: 100% !important; height: 36px !important; border: 1px solid #ccc !important; border-radius: 4px !important; cursor: pointer !important; padding: 2px !important; background: #fff !important; }
+#tbCardMasterApp .design-control select { padding: 6px 12px !important; border-radius: 4px !important; border: 1px solid #ccc !important; font-size: 16px !important; background: #fff !important; color: #000 !important; height: auto !important; }
+#tbCardMasterApp .button-group { display: flex !important; justify-content: center !important; gap: 12px !important; margin-top: 22px !important; }
+#tbCardMasterApp .download-btn { background: #28a745 !important; color: white !important; border: none !important; padding: 7px 16px !important; border-radius: 4px !important; cursor: pointer !important; font-weight: 600 !important; font-size: 16px !important; }
+#tbCardMasterApp .reset-btn { background: #b01b1f !important; color: white !important; border: none !important; padding: 7px 16px !important; border-radius: 4px !important; cursor: pointer !important; font-weight: 600 !important; font-size: 16px !important; }
+#tbCardMasterApp .reset-btn:disabled { opacity: 0.5 !important; cursor: not-allowed !important; }
+#tbCardMasterApp .checkbox-group { display: flex !important; flex-direction: column !important; align-items: center !important; }
+#tbCardMasterApp .custom-switch-input { appearance: none !important; -webkit-appearance: none !important; width: 56px !important; height: 28px !important; background-color: red !important; border-radius: 20px !important; position: relative !important; cursor: pointer !important; transition: background-color 0.25s !important; outline: none !important; border: none !important; }
+#tbCardMasterApp .custom-switch-input::after { content: '' !important; position: absolute !important; top: 3px !important; left: 3px !important; width: 22px !important; height: 22px !important; background: #fff !important; border-radius: 50% !important; transition: transform 0.25s !important; }
+#tbCardMasterApp .custom-switch-input:checked { background-color: #028e02 !important; }
+#tbCardMasterApp .custom-switch-input:checked::after { transform: translateX(28px) !important; }
+@media (max-width: 768px) { #tbCardMasterApp .control-group.last-group { flex-wrap: wrap !important; } #tbCardMasterApp .font-control { width: 100% !important; } #tbCardMasterApp .design-control { width: 58% !important; } #tbCardMasterApp .checkbox-group { width: 35% !important; } #tbCardMasterApp .button-group { width: 100% !important; margin-top: 8px !important; } #tbCardMasterApp .download-btn, #tbCardMasterApp .reset-btn { flex: 1 !important; text-align: center !important; } }
